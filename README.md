@@ -150,6 +150,7 @@ adaptive-nsst-bnf/
 
 All final tables should be regenerated from the saved raw replication-level results rather than manually edited. The code fixes the random-seed construction and uses the same generated dataset and train/test split for all competing models within each replication.
 
+
 ## License
 
- MIT
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
