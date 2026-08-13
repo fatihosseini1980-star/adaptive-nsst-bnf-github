@@ -1,0 +1,17 @@
+{
+  "repository_name": "adaptive-nsst-bnf",
+  "main_raw_rows": 800,
+  "main_cells": 20,
+  "replications_per_main_cell": 40,
+  "sensitivity_replications_per_setting": 5,
+  "sensitivity_scenarios": [
+    4,
+    5
+  ],
+  "sensitivity_prior_multipliers": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "surface_recovery_figures_included": false
+}
