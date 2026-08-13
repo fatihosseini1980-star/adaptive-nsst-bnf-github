@@ -144,8 +144,6 @@ adaptive-nsst-bnf/
 │   ├── summarize_results.py
 │   └── make_figures.py
 ├── results/
-├── figures/
-└── manuscript/
 ```
 
 ## Reproducibility note
@@ -154,4 +152,4 @@ All final tables should be regenerated from the saved raw replication-level resu
 
 ## License
 
-No software license is included in this package. Add the license you want before making the repository public (for example, MIT or BSD-3-Clause if you want to permit broad reuse).
+ MIT
