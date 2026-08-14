@@ -1,0 +1,4 @@
+model,seed,objective,max_fit_jitter
+Gaussian BNF,333,2221.409687131594,1e-08
+Gaussian BNF,111,2303.383415246674,1e-08
+Gaussian BNF,222,2367.173672103444,1e-08

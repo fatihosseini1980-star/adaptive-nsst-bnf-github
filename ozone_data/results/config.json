@@ -1,0 +1,52 @@
+{
+  "prior": {
+    "mean_neural_sd": 0.35,
+    "alpha_neural_sd": 0.5,
+    "range_neural_sd": 0.35,
+    "nu_shape": 2.0,
+    "nu_rate": 0.5,
+    "log_phi_mean": -1.0,
+    "log_phi_sd": 0.75
+  },
+  "numerical": {
+    "initial_jitter": 1e-08,
+    "max_jitter": 0.0001,
+    "jitter_multiplier": 10.0,
+    "dtype": "float64"
+  },
+  "fit": {
+    "hidden1": 32,
+    "hidden2": 16,
+    "auxiliary_hidden1": 16,
+    "auxiliary_hidden2": 8,
+    "iterations_gaussian": 900,
+    "iterations_adaptive": 900,
+    "learning_rate": 0.0008,
+    "posterior_draws": 500,
+    "surface_draws": 100,
+    "grad_clip": 20.0,
+    "kl_warmup_fraction": 0.2,
+    "mean_pretrain_steps": 500,
+    "mean_pretrain_lr": 0.008,
+    "adaptive_stage_fraction": 0.47,
+    "adaptive_joint_lr_factor": 0.25,
+    "restart_seeds": [
+      111,
+      222,
+      333
+    ],
+    "objective_tail": 60
+  },
+  "ozone": {
+    "panel_size": 24,
+    "n_test_stations": 6,
+    "n_calibration_stations": 4,
+    "n_days": 16,
+    "nominal_coverage": 0.95,
+    "calibration_min": 0.5,
+    "calibration_max": 3.0,
+    "calibration_step": 0.05,
+    "zero_fraction_max": 0.2,
+    "observed_fraction_min": 0.5
+  }
+}
