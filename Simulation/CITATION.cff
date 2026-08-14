@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this simulation code, please cite the associated methodological work."
+title: "Adaptive NSST-BNF Simulation Study: Reproducibility Code"
+type: software
+authors:
+  - family-names: Hosseini
+    given-names: Fatemeh
+  - family-names: Karimi
+    given-names: Omid
+version: 2.0.0
+date-released: 2026-08-14

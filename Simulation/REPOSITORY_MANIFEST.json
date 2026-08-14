@@ -1,0 +1,19 @@
+{
+  "repository": "Adaptive NSST-BNF Simulation Study",
+  "scope": "simulation-only reproducibility package",
+  "models": [
+    "Gaussian Neural Model",
+    "Stationary Skew-t Neural Model",
+    "Sparse Variational GP",
+    "Proposed Adaptive NSST-BNF"
+  ],
+  "scenarios": 5,
+  "final_replications_per_scenario": 40,
+  "final_replication_ids": "1001-1040",
+  "development_replication_ids": "2001-2005",
+  "prior_sensitivity_replication_ids": "3001-3005",
+  "adaptive_predictive_dispersion": 1.20,
+  "selection_rule": "minimum pooled development CRPS",
+  "contains_manuscript": false,
+  "contains_real_data_application": false
+}
